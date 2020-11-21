@@ -1,0 +1,54 @@
+.gif {
+    margin: 14px;
+}
+
+.carrousel {
+    display: flex;
+    flex-flow:  nowrap row ;
+    overflow: auto;
+}
+
+.gif-1 {
+    width: 200px;
+    height: 143px;
+}
+
+.left-btn{
+ display: none;       
+}
+
+.right-btn{
+    display: none;
+}
+
+
+@media only screen and (min-width: 769px){
+    .carrousel {
+        width: 750px;
+        display: flex;
+        flex-flow:  nowrap row ;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+
+    }
+
+    .ctn-carrousel {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-btn{
+     display: inline;
+    margin-left: 250px;
+    }
+
+    .right-btn{
+        display: inline;
+        margin-right: 250px;
+    }
+
+    
+}

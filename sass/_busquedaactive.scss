@@ -1,0 +1,59 @@
+.title-busqueda {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 40px;
+}
+
+.line-t {
+    margin-top: 20px;
+    width: 40%;
+    opacity: 0.5;
+    border: 1px solid #9CAFC3;  
+}
+
+.flex-busqueda {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gif-busqueda {
+   padding: 12px;
+}
+
+.busqueda {
+    display: none;
+}
+
+.btn-gifs {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .flex-busqueda {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    }
+
+ 
+    .gif-busqueda {
+        margin-left: 65px;
+        padding: 12px;
+        width: 270px;
+        height: 250px;
+     }
+
+     .img-ctn:hover{
+        opacity: 0.2;
+     }
+     
+
+}
