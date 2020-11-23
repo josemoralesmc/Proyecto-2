@@ -385,6 +385,19 @@ input {
     display: inline;
     margin-right: 250px;
   }
+  .backgroundC {
+    background-color: #F3F5F8;
+    height: 400px;
+    width: 100%;
+  }
+  .title-g {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 50px;
+  }
 }
 
 .t-footer {
@@ -417,6 +430,43 @@ input {
   color: #000000;
   letter-spacing: 0;
   line-height: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+  footer {
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #icon {
+    color: #CDD6E0;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-top: 19.95px;
+  }
+  #icon:active {
+    color: #572EE5;
+  }
+  .p-footer {
+    margin-left: 800px;
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .t-footer {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-left: 240px;
+  }
 }
 
 .title-busqueda {
@@ -460,6 +510,14 @@ input {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.T-noresultado {
+  display: none;
+}
+
+.img-noresultado {
+  display: none;
 }
 
 @media only screen and (min-width: 769px) {

@@ -87,6 +87,7 @@ function borrarBusqueda() {
         titleTrending.style.display = 'inline-block';
         tt.style.display = 'block';
         titleBusqueda.style.display = 'none';
+        lineT.style.display = 'none';
         }
         else { 
          input.value = '';
@@ -99,6 +100,7 @@ function borrarBusqueda() {
         titleTrending.style.display = 'inline-block';
         tt.style.display = 'block';
         titleBusqueda.style.display = 'none';
+        lineT.style.display = 'none';
     }
 }
 
@@ -173,6 +175,7 @@ let sectionGif = document.getElementById('section-gif');
 let containerGif = document.getElementById('ctn-gifs')
 let lineT = document.getElementById('line-t')
 let btngifs = document.getElementById('btn-gifs')
+let NoResult = document.getElementById('NoResult')
 
 
 
@@ -212,11 +215,13 @@ async function Gifs() {
           containerGif.innerHTML += `<div class="img-ctn"><img id="${element.id}" class="gif-busqueda" src="${element.images.fixed_width_small.url}" alt="${element.title}"></div>`
             
         }
+         
         console.log(json);
         document.querySelectorAll('#ctn-gifs img').forEach(img => {
             img.addEventListener('click', getGifById)
-    
+     
         });
+       
     }
 }
 
@@ -247,10 +252,6 @@ let downloadgif = document.getElementById('downloadgif')
 
 
     
-    
-
-
-
 //Mostrar suggestions
 
 let lineSugg = document.getElementById('lineSugg');
@@ -266,6 +267,7 @@ function MostrarSuggestions() {
         ctnSearch.style.height = '190px';
         lineSugg.style.display = 'block';
         lupa2.style.display = 'inline';
+        
     }
     
 }
@@ -279,6 +281,7 @@ function QuitarSuggestions() {
         ctnSS.style.height = '40px';
         ctnSearch.style.height = '40px';
         lineSugg.style.display = 'none';
+        lineT.style.display = 'none';
     }
 }
 // Suggestions
@@ -324,8 +327,8 @@ btnfav.addEventListener('click', SectionFavoritos)
             SectionTrending.style.display = 'none';
             titleBusqueda.style.display = 'none'
             containerGif.style.display = 'none'
-            btngifs.style.display = 'none'
-            lineT.style.display = 'none'
+            btngifs.style.display = 'none';
+            lineT.style.display = 'none';
             menu.style.display = 'block';
             MisGyfos.style.display = 'none';
         } else {
@@ -333,8 +336,8 @@ btnfav.addEventListener('click', SectionFavoritos)
             SectionSearch.style.display = 'none';
             SectionTrending.style.display = 'none';
             menu.style.display = 'none';
-            MisGyfos.style.display = 'none'
-            hamburguer.src = './img/burger.svg'
+            MisGyfos.style.display = 'none';
+            hamburguer.src = './img/burger.svg';
         }}
 
 
