@@ -6,6 +6,7 @@
     display: flex;
     flex-flow:  nowrap row ;
     overflow: auto;
+    background-color: var(--carrousel);
 }
 
 .gif-1 {
@@ -20,6 +21,11 @@
 .right-btn{
     display: none;
 }
+
+.backgroundC{
+    background-color: var(--carrousel);
+}
+
 
 
 @media only screen and (min-width: 769px){
@@ -51,7 +57,7 @@
     }
 
     .backgroundC{
-        background-color: #F3F5F8;
+        background-color: var(--carrousel);
         height: 400px;
         width: 100%;
     }
@@ -59,7 +65,7 @@
     .title-g {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-        color: #572EE5;
+        color: var(--li);
         text-align: center;
         line-height: 30px;
         padding-top: 50px;  

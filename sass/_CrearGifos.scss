@@ -1,0 +1,136 @@
+.SectionC{
+    display: none;
+    
+}
+
+.CtnImgCrear{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 25vw;
+    width: 100vw;
+}
+
+.CamaraCtn{
+    margin-top: 70px;
+}
+
+.camara{
+    margin-left: 150px;
+}
+
+.luz-camara {
+    padding-bottom: 14px;
+    padding-right: 30px;
+}
+
+.CuadroGrabacion{
+    margin-right: 370px;
+    width: 700px;
+    border: 1px solid #572EE5;
+    height: 400px;
+    
+}
+
+.TitleC{
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+.TextG{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 29px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+
+.numbersctn{
+    display: flex;
+}
+
+.number{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #572EE5;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.ctnnumber{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #572EE5;
+}
+
+.imgcrear{
+   margin-left: 50px;
+}
+
+.CtnlineaC{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.linea{
+    height: 2px;
+    margin-left: 200px;
+    border: 2px;
+    width: 700px;
+    background: #572EE5
+}
+
+.ButtonComenzar{
+    width: 100px;
+    border: 1px solid #572EE5;
+    border-radius: 25px;
+    border-radius: 25px;
+}
+
+.TComenzar{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 13px;
+    color: #572EE5;
+    text-align: center;
+    height: 20px;
+}
+
+.ButtonComenzar:hover {
+    background: #572EE5;
+}
+.TComenzar:hover{
+    color: white;
+}
+
+.flexBt{
+    display: flex;
+    justify-content: center;
+}
+
+#Grabar{
+    display: none;
+}
+
+#Finalizar {
+    display: none;
+}
+
+#subirGifo{
+    display: none;
+}

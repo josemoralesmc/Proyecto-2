@@ -1,8 +1,12 @@
+.sectionSearch {
+    background-color: var(--fondo);
+    padding-bottom: 20px;
+}
 
 .title {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: #572EE5;
+    color: var(--li);
     text-align: center;
     line-height: 33px;
     width: 286px;
@@ -22,8 +26,8 @@
 .search{
     display: block;
     margin: auto;
-    background: #FFFFFF;
-    border: 1px solid #572EE5;
+    background-color: var(--fondo);
+    border: 1px solid var(--li);
     border-radius: 27px;
     border-radius: 27px;
     height: 40px;
@@ -38,6 +42,7 @@ input {
     width: 75%;
     border: none; 
     margin-left: 15px;
+    background-color: var(--fondo);
 }
 
 .search :focus {
@@ -75,6 +80,10 @@ outline: none;
 @media only screen and (min-width: 769px) {
    
 
+    .sectionSearch {
+        background-color: var(--fondo);
+    }
+
     .img-search {
         width: 27.7%;
         height: 34.6%;
@@ -82,8 +91,8 @@ outline: none;
         margin: auto;
     }
     .search{
-        background: #FFFFFF;
-        border: 1px solid #572EE5;
+        background: var(--fondo);
+        border: 1px solid var(--li);
         border-radius: 27px;
         border-radius: 27px;
         height: 40px;
@@ -98,14 +107,14 @@ outline: none;
         height: 100%;
         width: 75%;
         border: none; 
-        margin-left: 10px;
+        padding-left: 10px;
         background-color: transparent;
     }
    
     .title {
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
-        color: #572EE5;
+        color: var(--li);
         text-align: center;
         line-height: 33px;
         width: 450px;
@@ -129,7 +138,7 @@ outline: none;
     .lupa2 {
         color: #9CAFC3;
         display: none;
-        margin-left: 14px;
+        padding-left: 14px;
         width: 15px;
 
         
@@ -144,7 +153,7 @@ outline: none;
     }
 
     #iconsSugg {
-     margin-right: 15.6px;
+     padding-right: 15.6px;
      color: #CDD6E0;  
     }
 
@@ -159,12 +168,13 @@ outline: none;
     }
     
    .ul2{
+        margin-top: 3px;
         margin-left: 14px;
         padding-inline-start: 0px;
    }
 
    .liSugg{
-    margin-bottom: 12px;
+    padding-bottom: 12px;
     font-family: 'Roboto';
     font-size: 14px;
     color: #9CAFC3;
